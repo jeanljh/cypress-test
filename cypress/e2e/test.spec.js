@@ -1,5 +1,3 @@
-import homePO from '../pageobjects/home'
-import transactionPO from '../pageobjects/transaction'
 import helper from '../utility/helper'
 import data from '../fixtures/data.json'
 
@@ -9,9 +7,9 @@ describe('Test Suite', () => {
         cy.visit('', {
             failOnStatusCode: false
         })
-        homePO.textMarketCap().should('not.be.empty')
-        homePO.inputSearch().type(`${data.wallet}{enter}`)
-        transactionPO.textTransactionCount().invoke('text').then(Number).should('be.gt', 2)
+        cy.get("a[data-title='View More']").should('not.be.empty')
+        cy.get('#txtSearchInput').type(`${data.wallet}{enter}`)
+        cy.get('p.mr-2 > a').invoke('text').then(Number).should('be.gt', 2)
     })
     it('API Test', () => {
         cy.request({

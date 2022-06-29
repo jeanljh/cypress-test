@@ -13,6 +13,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       return require('./cypress/plugins/index.js')(on, config)
     },
+    defaultCommandTimeout: 20000,
     baseUrl: 'https://etherscan.io/',
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
     viewportHeight: 1080,
