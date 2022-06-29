@@ -6,7 +6,9 @@ import data from '../fixtures/data.json'
 const url = helper.getBaseUrl()
 describe('Test Suite', () => {
     it('UI Test', () => {
-        cy.visit('')
+        cy.visit('', {
+            failOnStatusCode: false
+        })
         homePO.textMarketCap().should('not.be.empty')
         homePO.inputSearch().type(`${data.wallet}{enter}`)
         transactionPO.textTransactionCount().invoke('text').then(Number).should('be.gt', 2)
