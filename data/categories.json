@@ -6,13 +6,13 @@
       "name" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
       "children" : [ {
         "name" : "UI Test",
-        "uid" : "3fb38e60dfd8e44b",
+        "uid" : "57edaf5448dbe8d4",
         "parentUid" : "209a51047da6920d23941fcfe7421400",
         "status" : "failed",
         "time" : {
-          "start" : 1656484647735,
-          "stop" : 1656484648121,
-          "duration" : 386
+          "start" : 1656484790402,
+          "stop" : 1656484790660,
+          "duration" : 258
         },
         "flaky" : false,
         "newFailed" : false,

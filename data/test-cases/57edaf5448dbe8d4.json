@@ -1,12 +1,12 @@
 {
-  "uid" : "3fb38e60dfd8e44b",
+  "uid" : "57edaf5448dbe8d4",
   "name" : "UI Test",
   "fullName" : "UI Test",
   "historyId" : "4650fdf36fd04c0c7ed7b5c11df2da7d",
   "time" : {
-    "start" : 1656484647735,
-    "stop" : 1656484648121,
-    "duration" : 386
+    "start" : 1656484790402,
+    "stop" : 1656484790660,
+    "duration" : 258
   },
   "status" : "failed",
   "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
@@ -23,11 +23,11 @@
     "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
     "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at https://etherscan.io/__cypress/runner/cypress_runner.js:156619:84\n    at visitFailedByErr (https://etherscan.io/__cypress/runner/cypress_runner.js:155940:12)\n    at https://etherscan.io/__cypress/runner/cypress_runner.js:156599:13\n    at tryCatcher (https://etherscan.io/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise._settlePromiseFromHandler (https://etherscan.io/__cypress/runner/cypress_runner.js:10947:31)\n    at Promise._settlePromise (https://etherscan.io/__cypress/runner/cypress_runner.js:11004:18)\n    at Promise._settlePromise0 (https://etherscan.io/__cypress/runner/cypress_runner.js:11049:10)\n    at Promise._settlePromises (https://etherscan.io/__cypress/runner/cypress_runner.js:11125:18)\n    at _drainQueueStep (https://etherscan.io/__cypress/runner/cypress_runner.js:7719:12)\n    at _drainQueue (https://etherscan.io/__cypress/runner/cypress_runner.js:7712:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://etherscan.io/__cypress/runner/cypress_runner.js:7728:5)\n    at Async.drainQueues (https://etherscan.io/__cypress/runner/cypress_runner.js:7598:14)\nFrom Your Spec Code:\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:156:8)",
     "steps" : [ {
-      "name" : "visit https://etherscan.io/",
+      "name" : "visit (\"\")",
       "time" : {
-        "start" : 1656484647774,
-        "stop" : 1656484648119,
-        "duration" : 345
+        "start" : 1656484790427,
+        "stop" : 1656484790658,
+        "duration" : 231
       },
       "status" : "failed",
       "steps" : [ ],
@@ -39,17 +39,17 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "cfd87653a85eab1b",
-      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:37:27.918Z",
-      "source" : "cfd87653a85eab1b.png",
+      "uid" : "bf09906994ddb438",
+      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:39:50.527Z",
+      "source" : "bf09906994ddb438.png",
       "type" : "image/png",
-      "size" : 34442
+      "size" : 32593
     }, {
-      "uid" : "cc7e05458d12815a",
+      "uid" : "bc2d57514e1cb673",
       "name" : "video recording",
-      "source" : "cc7e05458d12815a.mp4",
+      "source" : "bc2d57514e1cb673.mp4",
       "type" : "video/mp4",
-      "size" : 187299
+      "size" : 153518
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
@@ -79,6 +79,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "3fb38e60dfd8e44b.json",
+  "source" : "57edaf5448dbe8d4.json",
   "parameterValues" : [ ]
 }
