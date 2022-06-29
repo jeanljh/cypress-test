@@ -1,20 +1,20 @@
 [ {
-  "uid" : "1c3814cada86171d",
-  "name" : "UI Test",
+  "uid" : "495394626ca489cd",
+  "name" : "API Test",
   "time" : {
-    "start" : 1656486793084,
-    "stop" : 1656486798624,
-    "duration" : 5540
+    "start" : 1656495357257,
+    "stop" : 1656495357750,
+    "duration" : 493
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "32fbcc8b6530c7a5",
-  "name" : "API Test",
+  "uid" : "42f683102a64af4b",
+  "name" : "UI Test",
   "time" : {
-    "start" : 1656486798667,
-    "stop" : 1656486799569,
-    "duration" : 902
+    "start" : 1656495351831,
+    "stop" : 1656495357235,
+    "duration" : 5404
   },
   "status" : "passed",
   "severity" : "normal"
