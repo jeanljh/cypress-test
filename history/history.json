@@ -1,0 +1,41 @@
+{
+  "acd553caf081fdca39c403139752b11e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4250c577c070d542",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656484530319,
+        "stop" : 1656484530779,
+        "duration" : 460
+      }
+    } ]
+  },
+  "4650fdf36fd04c0c7ed7b5c11df2da7d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cea79eede8ec6a66",
+      "status" : "failed",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+      "time" : {
+        "start" : 1656484529973,
+        "stop" : 1656484530262,
+        "duration" : 289
+      }
+    } ]
+  }
+}

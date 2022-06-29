@@ -1,0 +1,21 @@
+[ {
+  "uid" : "cea79eede8ec6a66",
+  "name" : "UI Test",
+  "time" : {
+    "start" : 1656484529973,
+    "stop" : 1656484530262,
+    "duration" : 289
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4250c577c070d542",
+  "name" : "API Test",
+  "time" : {
+    "start" : 1656484530319,
+    "stop" : 1656484530779,
+    "duration" : 460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

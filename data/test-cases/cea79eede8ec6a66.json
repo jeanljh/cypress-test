@@ -1,0 +1,84 @@
+{
+  "uid" : "cea79eede8ec6a66",
+  "name" : "UI Test",
+  "fullName" : "UI Test",
+  "historyId" : "4650fdf36fd04c0c7ed7b5c11df2da7d",
+  "time" : {
+    "start" : 1656484529973,
+    "stop" : 1656484530262,
+    "duration" : 289
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at https://etherscan.io/__cypress/runner/cypress_runner.js:156619:84\n    at visitFailedByErr (https://etherscan.io/__cypress/runner/cypress_runner.js:155940:12)\n    at https://etherscan.io/__cypress/runner/cypress_runner.js:156599:13\n    at tryCatcher (https://etherscan.io/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise._settlePromiseFromHandler (https://etherscan.io/__cypress/runner/cypress_runner.js:10947:31)\n    at Promise._settlePromise (https://etherscan.io/__cypress/runner/cypress_runner.js:11004:18)\n    at Promise._settlePromise0 (https://etherscan.io/__cypress/runner/cypress_runner.js:11049:10)\n    at Promise._settlePromises (https://etherscan.io/__cypress/runner/cypress_runner.js:11125:18)\n    at _drainQueueStep (https://etherscan.io/__cypress/runner/cypress_runner.js:7719:12)\n    at _drainQueue (https://etherscan.io/__cypress/runner/cypress_runner.js:7712:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://etherscan.io/__cypress/runner/cypress_runner.js:7728:5)\n    at Async.drainQueues (https://etherscan.io/__cypress/runner/cypress_runner.js:7598:14)\nFrom Your Spec Code:\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:156:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+    "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at https://etherscan.io/__cypress/runner/cypress_runner.js:156619:84\n    at visitFailedByErr (https://etherscan.io/__cypress/runner/cypress_runner.js:155940:12)\n    at https://etherscan.io/__cypress/runner/cypress_runner.js:156599:13\n    at tryCatcher (https://etherscan.io/__cypress/runner/cypress_runner.js:13012:23)\n    at Promise._settlePromiseFromHandler (https://etherscan.io/__cypress/runner/cypress_runner.js:10947:31)\n    at Promise._settlePromise (https://etherscan.io/__cypress/runner/cypress_runner.js:11004:18)\n    at Promise._settlePromise0 (https://etherscan.io/__cypress/runner/cypress_runner.js:11049:10)\n    at Promise._settlePromises (https://etherscan.io/__cypress/runner/cypress_runner.js:11125:18)\n    at _drainQueueStep (https://etherscan.io/__cypress/runner/cypress_runner.js:7719:12)\n    at _drainQueue (https://etherscan.io/__cypress/runner/cypress_runner.js:7712:9)\n    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://etherscan.io/__cypress/runner/cypress_runner.js:7728:5)\n    at Async.drainQueues (https://etherscan.io/__cypress/runner/cypress_runner.js:7598:14)\nFrom Your Spec Code:\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:156:8)",
+    "steps" : [ {
+      "name" : "visit https://etherscan.io/",
+      "time" : {
+        "start" : 1656484530003,
+        "stop" : 1656484530261,
+        "duration" : 258
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6013a9fab083e084",
+      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:35:30.119Z",
+      "source" : "6013a9fab083e084.png",
+      "type" : "image/png",
+      "size" : 34463
+    }, {
+      "uid" : "248abcc141fbc525",
+      "name" : "video recording",
+      "source" : "248abcc141fbc525.mp4",
+      "type" : "video/mp4",
+      "size" : 162479
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cea79eede8ec6a66.json",
+  "parameterValues" : [ ]
+}
