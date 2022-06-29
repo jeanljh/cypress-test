@@ -1,16 +1,14 @@
 {
-  "uid" : "ed7ac56ca67e608f",
+  "uid" : "c3d2b1adbdffa23d",
   "name" : "UI Test",
   "fullName" : "UI Test",
   "historyId" : "4650fdf36fd04c0c7ed7b5c11df2da7d",
   "time" : {
-    "start" : 1656486041851,
-    "stop" : 1656486062265,
-    "duration" : 20414
+    "start" : 1656486131326,
+    "stop" : 1656486135318,
+    "duration" : 3992
   },
-  "status" : "failed",
-  "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
-  "statusTrace" : "AssertionError: Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:130:8)",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -19,15 +17,103 @@
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "status" : "failed",
-    "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
-    "statusTrace" : "AssertionError: Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:130:8)",
+    "status" : "passed",
     "steps" : [ {
       "name" : "visit (\"\"; \"{ failOnStatusCode: false }\")",
       "time" : {
-        "start" : 1656486041875,
-        "stop" : 1656486042115,
-        "duration" : 240
+        "start" : 1656486131399,
+        "stop" : 1656486133884,
+        "duration" : 2485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /assets/vendor/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js",
+      "time" : {
+        "start" : 1656486133882,
+        "stop" : 1656486133882,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=1862622250&t=pageview&_s=1&dl=https://etherscan.io/&ul=en-us&de=UTF-8&dt=Ethereum (ETH) Blockchain Explorer&sd=24-bit&sr=1280x1024&vp=1905x1080&je=0&_u=YEBAAUABAAAAAC~&jid=387416518&gjid=206614760&cid=1675085137.1656486134&tid=UA-46998878-6&_gid=427279791.1656486134&_r=1&gtm=2ou6r0&z=383472892",
+      "time" : {
+        "start" : 1656486133883,
+        "stop" : 1656486133883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://kta.etherscan.com/www/d/asyncspces.php?zones=6&prefix=revive-0-&loc=https://etherscan.io/",
+      "time" : {
+        "start" : 1656486133883,
+        "stop" : 1656486133883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&aip=1&a=1862622250&t=pageview&_s=1&dl=https%3A%2F%2Fetherscan.io%2F&ul=en-us&de=UTF-8&dt=Ethereum%20(ETH)%20Blockchain%20Explorer&sd=24-bit&sr=1280x1024&vp=1905x1080&je=0&_u=YEBAAUABAAAAAC~&jid=387416518&gjid=206614760&cid=1675085137.1656486134&tid=UA-46998878-6&_gid=427279791.1656486134&_r=1&gtm=2ou6r0&z=383472892",
+      "time" : {
+        "start" : 1656486133883,
+        "stop" : 1656486133883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /assets/js/custom/commonjs_token.js?v=22.6.4.0",
+      "time" : {
+        "start" : 1656486133883,
+        "stop" : 1656486133883,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://kta.etherscan.com/www/d/asyncspces.php?zones=6&prefix=revive-0-&loc=https%3A%2F%2Fetherscan.io%2F",
+      "time" : {
+        "start" : 1656486133883,
+        "stop" : 1656486133883,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,9 +126,9 @@
     }, {
       "name" : "get a[data-title='View More']",
       "time" : {
-        "start" : 1656486042115,
-        "stop" : 1656486042128,
-        "duration" : 13
+        "start" : 1656486133884,
+        "stop" : 1656486133915,
+        "duration" : 31
       },
       "status" : "passed",
       "steps" : [ ],
@@ -53,10 +139,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "assert expected **{ Object (length, prevObject, ...) }** not to be empty",
+      "name" : "assert expected **<a.text-size-1.text-link>** not to be **empty**",
       "time" : {
-        "start" : 1656486042128,
-        "stop" : 1656486042128,
+        "start" : 1656486133915,
+        "stop" : 1656486133915,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,11 +156,11 @@
     }, {
       "name" : "get #txtSearchInput",
       "time" : {
-        "start" : 1656486042128,
-        "stop" : 1656486062264,
-        "duration" : 20136
+        "start" : 1656486133916,
+        "stop" : 1656486133925,
+        "duration" : 9
       },
-      "status" : "failed",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -83,10 +169,25 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.8568251730481565:1656482841:vhRf-4TzlAQ1GAzZkf90n7WJBeXCc3UmOcFLLfg0qkw/722cc9620db382e4/682b2daef2fef12",
+      "name" : "type 0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a",
       "time" : {
-        "start" : 1656486062263,
-        "stop" : 1656486062263,
+        "start" : 1656486133925,
+        "stop" : 1656486135316,
+        "duration" : 1391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 /searchHandler?term=&filterby=0",
+      "time" : {
+        "start" : 1656486135316,
+        "stop" : 1656486135316,
         "duration" : 0
       },
       "status" : "passed",
@@ -98,85 +199,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 401 /cdn-cgi/challenge-platform/h/b/pat/722cc9620db382e4/1656486042480/0ad33e71f7625c8e92590297c291f4e0eece0f34d82ef53dc9a813657b33fac8/vPbe65EPCVCtFHV",
+      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/cv/result/722ccb91ba516426",
       "time" : {
-        "start" : 1656486062263,
-        "stop" : 1656486062263,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.8568251730481565:1656482841:vhRf-4TzlAQ1GAzZkf90n7WJBeXCc3UmOcFLLfg0qkw/722cc9620db382e4/682b2daef2fef12",
-      "time" : {
-        "start" : 1656486062263,
-        "stop" : 1656486062263,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
-      "time" : {
-        "start" : 1656486062264,
-        "stop" : 1656486062264,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
-      "time" : {
-        "start" : 1656486062264,
-        "stop" : 1656486062264,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET 200 https://cf-assets.hcaptcha.com/i/5b174c7/e",
-      "time" : {
-        "start" : 1656486062264,
-        "stop" : 1656486062264,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "GET 200 https://cf-assets.hcaptcha.com/i/5b174c7/e",
-      "time" : {
-        "start" : 1656486062264,
-        "stop" : 1656486062264,
+        "start" : 1656486135316,
+        "stop" : 1656486135316,
         "duration" : 0
       },
       "status" : "passed",
@@ -188,23 +214,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     } ],
-    "attachments" : [ {
-      "uid" : "5cc08c25fe1ad63b",
-      "name" : "cypress/e2e/test.spec.js:2022-06-29T07:01:02.140Z",
-      "source" : "5cc08c25fe1ad63b.png",
-      "type" : "image/png",
-      "size" : 155913
-    }, {
-      "uid" : "1a2d243c5d535d7d",
-      "name" : "video recording",
-      "source" : "1a2d243c5d535d7d.mp4",
-      "type" : "video/mp4",
-      "size" : 1005398
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 11,
-    "attachmentsCount" : 2,
-    "shouldDisplayMessage" : true,
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -222,13 +236,9 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ed7ac56ca67e608f.json",
+  "source" : "c3d2b1adbdffa23d.json",
   "parameterValues" : [ ]
 }
