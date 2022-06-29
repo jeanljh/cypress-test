@@ -8,8 +8,8 @@ describe('Test Suite', () => {
             failOnStatusCode: false
         })
         cy.get("a[data-title='View More']").should('not.be.empty')
-        cy.get('#txtSearchInput').type(`${data.wallet}{enter}`)
-        cy.get('p.mr-2 > a').invoke('text').then(Number).should('be.gt', 2)
+        // cy.get('#txtSearchInput').type(`${data.wallet}{enter}`)
+        // cy.get('p.mr-2 > a').invoke('text').then(Number).should('be.gt', 2)
     })
     it('API Test', () => {
         cy.request({
