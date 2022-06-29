@@ -1,12 +1,12 @@
 {
-  "uid" : "3fbeff24f4a124ab",
+  "uid" : "ad2418e68b4457f9",
   "name" : "API Test",
   "fullName" : "API Test",
   "historyId" : "acd553caf081fdca39c403139752b11e",
   "time" : {
-    "start" : 1656485956934,
-    "stop" : 1656485957426,
-    "duration" : 492
+    "start" : 1656486062300,
+    "stop" : 1656486062734,
+    "duration" : 434
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "GET 200 https://api.etherscan.io/api",
       "time" : {
-        "start" : 1656485957023,
-        "stop" : 1656485957418,
-        "duration" : 395
+        "start" : 1656486062357,
+        "stop" : 1656486062728,
+        "duration" : 371
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,9 +36,9 @@
     }, {
       "name" : "its .body.result",
       "time" : {
-        "start" : 1656485957418,
-        "stop" : 1656485957422,
-        "duration" : 4
+        "start" : 1656486062728,
+        "stop" : 1656486062731,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -51,8 +51,8 @@
     }, {
       "name" : "invoke .every(function(){})",
       "time" : {
-        "start" : 1656485957422,
-        "stop" : 1656485957425,
+        "start" : 1656486062731,
+        "stop" : 1656486062734,
         "duration" : 3
       },
       "status" : "passed",
@@ -66,9 +66,9 @@
     }, {
       "name" : "assert expected **true** to be true",
       "time" : {
-        "start" : 1656485957425,
-        "stop" : 1656485957425,
-        "duration" : 0
+        "start" : 1656486062733,
+        "stop" : 1656486062734,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -110,6 +110,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3fbeff24f4a124ab.json",
+  "source" : "ad2418e68b4457f9.json",
   "parameterValues" : [ ]
 }

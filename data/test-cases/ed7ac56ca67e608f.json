@@ -1,12 +1,12 @@
 {
-  "uid" : "4d4bc1b00a83aa18",
+  "uid" : "ed7ac56ca67e608f",
   "name" : "UI Test",
   "fullName" : "UI Test",
   "historyId" : "4650fdf36fd04c0c7ed7b5c11df2da7d",
   "time" : {
-    "start" : 1656485936356,
-    "stop" : 1656485956885,
-    "duration" : 20529
+    "start" : 1656486041851,
+    "stop" : 1656486062265,
+    "duration" : 20414
   },
   "status" : "failed",
   "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
@@ -25,9 +25,9 @@
     "steps" : [ {
       "name" : "visit (\"\"; \"{ failOnStatusCode: false }\")",
       "time" : {
-        "start" : 1656485936390,
-        "stop" : 1656485936680,
-        "duration" : 290
+        "start" : 1656486041875,
+        "stop" : 1656486042115,
+        "duration" : 240
       },
       "status" : "passed",
       "steps" : [ ],
@@ -40,9 +40,9 @@
     }, {
       "name" : "get a[data-title='View More']",
       "time" : {
-        "start" : 1656485936680,
-        "stop" : 1656485936701,
-        "duration" : 21
+        "start" : 1656486042115,
+        "stop" : 1656486042128,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -55,8 +55,8 @@
     }, {
       "name" : "assert expected **{ Object (length, prevObject, ...) }** not to be empty",
       "time" : {
-        "start" : 1656485936701,
-        "stop" : 1656485936701,
+        "start" : 1656486042128,
+        "stop" : 1656486042128,
         "duration" : 0
       },
       "status" : "passed",
@@ -70,9 +70,9 @@
     }, {
       "name" : "get #txtSearchInput",
       "time" : {
-        "start" : 1656485936701,
-        "stop" : 1656485956884,
-        "duration" : 20183
+        "start" : 1656486042128,
+        "stop" : 1656486062264,
+        "duration" : 20136
       },
       "status" : "failed",
       "steps" : [ ],
@@ -83,10 +83,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.05244091385225842:1656482834:RTPDYJnzezHBHr0X9VaicmJnKx8FvY_83KMVAkpatm0/722cc6cebb7c9846/a9f02638a833530",
+      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.8568251730481565:1656482841:vhRf-4TzlAQ1GAzZkf90n7WJBeXCc3UmOcFLLfg0qkw/722cc9620db382e4/682b2daef2fef12",
       "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
+        "start" : 1656486062263,
+        "stop" : 1656486062263,
         "duration" : 0
       },
       "status" : "passed",
@@ -98,10 +98,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "GET 401 /cdn-cgi/challenge-platform/h/b/pat/722cc6cebb7c9846/1656485937091/ff7fc3784945517f05936011e7f768021c5d706010dd150f1e16047f3ef670a9/28chTC30ECUWsp4",
+      "name" : "GET 401 /cdn-cgi/challenge-platform/h/b/pat/722cc9620db382e4/1656486042480/0ad33e71f7625c8e92590297c291f4e0eece0f34d82ef53dc9a813657b33fac8/vPbe65EPCVCtFHV",
       "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
+        "start" : 1656486062263,
+        "stop" : 1656486062263,
         "duration" : 0
       },
       "status" : "passed",
@@ -113,25 +113,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.05244091385225842:1656482834:RTPDYJnzezHBHr0X9VaicmJnKx8FvY_83KMVAkpatm0/722cc6cebb7c9846/a9f02638a833530",
+      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.8568251730481565:1656482841:vhRf-4TzlAQ1GAzZkf90n7WJBeXCc3UmOcFLLfg0qkw/722cc9620db382e4/682b2daef2fef12",
       "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
-      "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
+        "start" : 1656486062263,
+        "stop" : 1656486062263,
         "duration" : 0
       },
       "status" : "passed",
@@ -145,8 +130,23 @@
     }, {
       "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
       "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
+        "start" : 1656486062264,
+        "stop" : 1656486062264,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
+      "time" : {
+        "start" : 1656486062264,
+        "stop" : 1656486062264,
         "duration" : 0
       },
       "status" : "passed",
@@ -160,8 +160,8 @@
     }, {
       "name" : "GET 200 https://cf-assets.hcaptcha.com/i/5b174c7/e",
       "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
+        "start" : 1656486062264,
+        "stop" : 1656486062264,
         "duration" : 0
       },
       "status" : "passed",
@@ -175,8 +175,8 @@
     }, {
       "name" : "GET 200 https://cf-assets.hcaptcha.com/i/5b174c7/e",
       "time" : {
-        "start" : 1656485956884,
-        "stop" : 1656485956884,
+        "start" : 1656486062264,
+        "stop" : 1656486062264,
         "duration" : 0
       },
       "status" : "passed",
@@ -189,17 +189,17 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "ebdf3b8d3ba8a15c",
-      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:59:16.710Z",
-      "source" : "ebdf3b8d3ba8a15c.png",
+      "uid" : "5cc08c25fe1ad63b",
+      "name" : "cypress/e2e/test.spec.js:2022-06-29T07:01:02.140Z",
+      "source" : "5cc08c25fe1ad63b.png",
       "type" : "image/png",
-      "size" : 160323
+      "size" : 155913
     }, {
-      "uid" : "241449294e238949",
+      "uid" : "1a2d243c5d535d7d",
       "name" : "video recording",
-      "source" : "241449294e238949.mp4",
+      "source" : "1a2d243c5d535d7d.mp4",
       "type" : "video/mp4",
-      "size" : 1160207
+      "size" : 1005398
     } ],
     "parameters" : [ ],
     "stepsCount" : 11,
@@ -229,6 +229,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "4d4bc1b00a83aa18.json",
+  "source" : "ed7ac56ca67e608f.json",
   "parameterValues" : [ ]
 }
