@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --headed",
+    "test": "cypress run",
     "test:kovan": "cypress run -e env=kovan",
     "test:rinkeby": "cypress run -e env=rinkeby",
     "test:ropsten": "cypress run -e env=ropsten",
