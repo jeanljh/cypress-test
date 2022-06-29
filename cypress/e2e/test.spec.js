@@ -3,11 +3,10 @@ import transactionPO from '../pageobjects/transaction'
 import helper from '../utility/helper'
 import data from '../fixtures/data.json'
 
-
 const url = helper.getBaseUrl()
 describe('Test Suite', () => {
     it('UI Test', () => {
-        cy.visit(url)
+        cy.visit('')
         homePO.textMarketCap().should('not.be.empty')
         homePO.inputSearch().type(`${data.wallet}{enter}`)
         transactionPO.textTransactionCount().invoke('text').then(Number).should('be.gt', 2)
