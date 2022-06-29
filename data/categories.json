@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `#txtSearchInput`, but never found it.",
+      "name" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
       "children" : [ {
         "name" : "UI Test",
-        "uid" : "7272acc60bee8ea9",
-        "parentUid" : "bfe05b23ee964fe4e74dd6ad1b71fd20",
+        "uid" : "f998ef5b2d9c8b28",
+        "parentUid" : "2781e8f875e31bbb22e34ca2fc4a9794",
         "status" : "failed",
         "time" : {
-          "start" : 1656485102679,
-          "stop" : 1656485108434,
-          "duration" : 5755
+          "start" : 1656485379780,
+          "stop" : 1656485401285,
+          "duration" : 21505
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "bfe05b23ee964fe4e74dd6ad1b71fd20"
+      "uid" : "2781e8f875e31bbb22e34ca2fc4a9794"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
