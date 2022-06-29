@@ -3,16 +3,16 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#txtSearchInput`, but never found it.",
       "children" : [ {
         "name" : "UI Test",
-        "uid" : "57edaf5448dbe8d4",
-        "parentUid" : "209a51047da6920d23941fcfe7421400",
+        "uid" : "7272acc60bee8ea9",
+        "parentUid" : "bfe05b23ee964fe4e74dd6ad1b71fd20",
         "status" : "failed",
         "time" : {
-          "start" : 1656484790402,
-          "stop" : 1656484790660,
-          "duration" : 258
+          "start" : 1656485102679,
+          "stop" : 1656485108434,
+          "duration" : 5755
         },
         "flaky" : false,
         "newFailed" : false,
@@ -22,7 +22,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "209a51047da6920d23941fcfe7421400"
+      "uid" : "bfe05b23ee964fe4e74dd6ad1b71fd20"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

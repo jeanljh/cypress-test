@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "615e02f400775e73",
+      "uid" : "bccb4ba77d6b9cb4",
       "status" : "passed",
       "time" : {
-        "start" : 1656484790708,
-        "stop" : 1656484791045,
-        "duration" : 337
+        "start" : 1656485108482,
+        "stop" : 1656485108816,
+        "duration" : 334
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57edaf5448dbe8d4",
+      "uid" : "7272acc60bee8ea9",
       "status" : "failed",
-      "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+      "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#txtSearchInput`, but never found it.",
       "time" : {
-        "start" : 1656484790402,
-        "stop" : 1656484790660,
-        "duration" : 258
+        "start" : 1656485102679,
+        "stop" : 1656485108434,
+        "duration" : 5755
       }
     } ]
   }

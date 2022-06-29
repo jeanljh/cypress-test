@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed Jun 29 06:39:50 UTC 2022","Wed Jun 29 06:39:50 UTC 2022","258","","Test Suite","","","","UI Test",""
-"passed","Wed Jun 29 06:39:50 UTC 2022","Wed Jun 29 06:39:51 UTC 2022","337","","Test Suite","","","","API Test",""
+"failed","Wed Jun 29 06:45:02 UTC 2022","Wed Jun 29 06:45:08 UTC 2022","5755","","Test Suite","","","","UI Test",""
+"passed","Wed Jun 29 06:45:08 UTC 2022","Wed Jun 29 06:45:08 UTC 2022","334","","Test Suite","","","","API Test",""
