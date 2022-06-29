@@ -4,13 +4,13 @@
     "name" : "Test Suite",
     "children" : [ {
       "name" : "UI Test",
-      "uid" : "aadd0c16cb5fb6ab",
+      "uid" : "1c3814cada86171d",
       "parentUid" : "70f4612f25dd624e3fa5910864552138",
       "status" : "passed",
       "time" : {
-        "start" : 1656486629631,
-        "stop" : 1656486635773,
-        "duration" : 6142
+        "start" : 1656486793084,
+        "stop" : 1656486798624,
+        "duration" : 5540
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,13 +21,13 @@
       "parameters" : [ ]
     }, {
       "name" : "API Test",
-      "uid" : "8795fd7a8ca023f4",
+      "uid" : "32fbcc8b6530c7a5",
       "parentUid" : "70f4612f25dd624e3fa5910864552138",
       "status" : "passed",
       "time" : {
-        "start" : 1656486635834,
-        "stop" : 1656486636355,
-        "duration" : 521
+        "start" : 1656486798667,
+        "stop" : 1656486799569,
+        "duration" : 902
       },
       "flaky" : false,
       "newFailed" : false,
