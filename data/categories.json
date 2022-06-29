@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
+      "children" : [ {
+        "name" : "UI Test",
+        "uid" : "4d4bc1b00a83aa18",
+        "parentUid" : "2781e8f875e31bbb22e34ca2fc4a9794",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656485936356,
+          "stop" : 1656485956885,
+          "duration" : 20529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2781e8f875e31bbb22e34ca2fc4a9794"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

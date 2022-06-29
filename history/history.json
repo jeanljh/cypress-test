@@ -9,31 +9,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "414eb247ab18fe79",
+      "uid" : "3fbeff24f4a124ab",
       "status" : "passed",
       "time" : {
-        "start" : 1656485692305,
-        "stop" : 1656485692800,
-        "duration" : 495
+        "start" : 1656485956934,
+        "stop" : 1656485957426,
+        "duration" : 492
       }
     } ]
   },
   "4650fdf36fd04c0c7ed7b5c11df2da7d" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "52ef06b34ea9be90",
-      "status" : "passed",
+      "uid" : "4d4bc1b00a83aa18",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
       "time" : {
-        "start" : 1656485690590,
-        "stop" : 1656485692240,
-        "duration" : 1650
+        "start" : 1656485936356,
+        "stop" : 1656485956885,
+        "duration" : 20529
       }
     } ]
   }

@@ -2,13 +2,13 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "UI Test",
-    "uid" : "52ef06b34ea9be90",
+    "uid" : "4d4bc1b00a83aa18",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1656485690590,
-      "stop" : 1656485692240,
-      "duration" : 1650
+      "start" : 1656485936356,
+      "stop" : 1656485956885,
+      "duration" : 20529
     },
     "flaky" : false,
     "newFailed" : false,
@@ -19,13 +19,13 @@
     "parameters" : [ ]
   }, {
     "name" : "API Test",
-    "uid" : "414eb247ab18fe79",
+    "uid" : "3fbeff24f4a124ab",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1656485692305,
-      "stop" : 1656485692800,
-      "duration" : 495
+      "start" : 1656485956934,
+      "stop" : 1656485957426,
+      "duration" : 492
     },
     "flaky" : false,
     "newFailed" : false,

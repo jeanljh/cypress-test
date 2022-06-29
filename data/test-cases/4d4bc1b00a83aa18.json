@@ -1,0 +1,234 @@
+{
+  "uid" : "4d4bc1b00a83aa18",
+  "name" : "UI Test",
+  "fullName" : "UI Test",
+  "historyId" : "4650fdf36fd04c0c7ed7b5c11df2da7d",
+  "time" : {
+    "start" : 1656485936356,
+    "stop" : 1656485956885,
+    "duration" : 20529
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:130:8)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 20000ms: Expected to find element: `#txtSearchInput`, but never found it.\n    at Context.eval (https://etherscan.io/__cypress/tests?p=cypress/e2e/test.spec.js:130:8)",
+    "steps" : [ {
+      "name" : "visit (\"\"; \"{ failOnStatusCode: false }\")",
+      "time" : {
+        "start" : 1656485936390,
+        "stop" : 1656485936680,
+        "duration" : 290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get a[data-title='View More']",
+      "time" : {
+        "start" : 1656485936680,
+        "stop" : 1656485936701,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **{ Object (length, prevObject, ...) }** not to be empty",
+      "time" : {
+        "start" : 1656485936701,
+        "stop" : 1656485936701,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "get #txtSearchInput",
+      "time" : {
+        "start" : 1656485936701,
+        "stop" : 1656485956884,
+        "duration" : 20183
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.05244091385225842:1656482834:RTPDYJnzezHBHr0X9VaicmJnKx8FvY_83KMVAkpatm0/722cc6cebb7c9846/a9f02638a833530",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 401 /cdn-cgi/challenge-platform/h/b/pat/722cc6cebb7c9846/1656485937091/ff7fc3784945517f05936011e7f768021c5d706010dd150f1e16047f3ef670a9/28chTC30ECUWsp4",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 /cdn-cgi/challenge-platform/h/b/flow/ov1/0.05244091385225842:1656482834:RTPDYJnzezHBHr0X9VaicmJnKx8FvY_83KMVAkpatm0/722cc6cebb7c9846/a9f02638a833530",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://cloudflare.hcaptcha.com/checksiteconfig?v=51c8a75&host=etherscan.io&sitekey=03196e24-ce02-40fc-aa86-4d6130e1c97a&sc=1&swa=1",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://cf-assets.hcaptcha.com/i/5b174c7/e",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://cf-assets.hcaptcha.com/i/5b174c7/e",
+      "time" : {
+        "start" : 1656485956884,
+        "stop" : 1656485956884,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ebdf3b8d3ba8a15c",
+      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:59:16.710Z",
+      "source" : "ebdf3b8d3ba8a15c.png",
+      "type" : "image/png",
+      "size" : 160323
+    }, {
+      "uid" : "241449294e238949",
+      "name" : "video recording",
+      "source" : "241449294e238949.mp4",
+      "type" : "video/mp4",
+      "size" : 1160207
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4d4bc1b00a83aa18.json",
+  "parameterValues" : [ ]
+}
