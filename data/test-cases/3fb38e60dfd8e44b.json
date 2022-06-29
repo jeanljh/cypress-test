@@ -1,12 +1,12 @@
 {
-  "uid" : "cea79eede8ec6a66",
+  "uid" : "3fb38e60dfd8e44b",
   "name" : "UI Test",
   "fullName" : "UI Test",
   "historyId" : "4650fdf36fd04c0c7ed7b5c11df2da7d",
   "time" : {
-    "start" : 1656484529973,
-    "stop" : 1656484530262,
-    "duration" : 289
+    "start" : 1656484647735,
+    "stop" : 1656484648121,
+    "duration" : 386
   },
   "status" : "failed",
   "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
@@ -25,9 +25,9 @@
     "steps" : [ {
       "name" : "visit https://etherscan.io/",
       "time" : {
-        "start" : 1656484530003,
-        "stop" : 1656484530261,
-        "duration" : 258
+        "start" : 1656484647774,
+        "stop" : 1656484648119,
+        "duration" : 345
       },
       "status" : "failed",
       "steps" : [ ],
@@ -39,17 +39,17 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "6013a9fab083e084",
-      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:35:30.119Z",
-      "source" : "6013a9fab083e084.png",
+      "uid" : "cfd87653a85eab1b",
+      "name" : "cypress/e2e/test.spec.js:2022-06-29T06:37:27.918Z",
+      "source" : "cfd87653a85eab1b.png",
       "type" : "image/png",
-      "size" : 34463
+      "size" : 34442
     }, {
-      "uid" : "248abcc141fbc525",
+      "uid" : "cc7e05458d12815a",
       "name" : "video recording",
-      "source" : "248abcc141fbc525.mp4",
+      "source" : "cc7e05458d12815a.mp4",
       "type" : "video/mp4",
-      "size" : 162479
+      "size" : 187299
     } ],
     "parameters" : [ ],
     "stepsCount" : 1,
@@ -79,6 +79,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "cea79eede8ec6a66.json",
+  "source" : "3fb38e60dfd8e44b.json",
   "parameterValues" : [ ]
 }

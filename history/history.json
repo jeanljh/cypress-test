@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4250c577c070d542",
+      "uid" : "e374a906747beda",
       "status" : "passed",
       "time" : {
-        "start" : 1656484530319,
-        "stop" : 1656484530779,
-        "duration" : 460
+        "start" : 1656484648246,
+        "stop" : 1656484648896,
+        "duration" : 650
       }
     } ]
   },
@@ -28,13 +28,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cea79eede8ec6a66",
+      "uid" : "3fb38e60dfd8e44b",
       "status" : "failed",
       "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://etherscan.io/\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
       "time" : {
-        "start" : 1656484529973,
-        "stop" : 1656484530262,
-        "duration" : 289
+        "start" : 1656484647735,
+        "stop" : 1656484648121,
+        "duration" : 386
       }
     } ]
   }
