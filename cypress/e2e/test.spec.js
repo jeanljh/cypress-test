@@ -4,9 +4,7 @@ import data from '../fixtures/data.json'
 const url = helper.getBaseUrl()
 describe('Test Suite', () => {
     it('UI Test', () => {
-        cy.visit(url, {
-            failOnStatusCode: false
-        })
+        cy.visit(url, { failOnStatusCode: false })
         cy.get("a[data-title='View More']").should('not.be.empty')
         cy.get('#txtSearchInput').type(`${data.wallet}{enter}`)
         cy.get('p.mr-2 > a').invoke('text').then(Number).should('be.gt', 2)
@@ -31,13 +29,6 @@ describe('Test Suite', () => {
         // another way
         // .its('body.result').each(({blockNumber}) => {
         //     expect(blockNumber).is.not.null
-        // })
-        // cy.wrap([1, 2]).invoke('every', e => e.blockNumber !== null).should('be.true')
-        // .then(({status, body: {result}}) => {
-        //     expect(status).to.eq(200)
-        //     result.forEach(({blockNumber}) => {
-        //         expect(blockNumber).is.not.null
-        //     })
         // })
     })
 })
