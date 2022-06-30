@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: master
 
-  workflow_dispatch:
+#   workflow_dispatch:
   
 jobs:
   cypress-run:
@@ -34,10 +34,6 @@ jobs:
           browser: chrome
           headed: true
         continue-on-error: true
-      
-#       - name: Run Cypress tests
-#         run: npm run test
-#         continue-on-error: true
       
       - name: Generate Allure report
         run: npm run allure:report
