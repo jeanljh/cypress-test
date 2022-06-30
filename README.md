@@ -4,5 +4,6 @@
 2. Install npm packages: npm i
 3. To view test report: /allure-report/index.html
 4. To view test report in github pages: https://jeanljh.github.io/cypress-test/
-5. To view github actions .yml file: Click Actions tab > CI > main.yml
-6. Added getBaseUrl() method in /cypress/utility/helper.js to configure tests to run in different ethereum testnets
+5. To view test recording video: /test video/test_rec.mp4
+6. To view github actions .yml file: Click Actions tab > CI > main.yml
+7. Added getBaseUrl() method in /cypress/utility/helper.js to configure tests to run in different ethereum testnets
