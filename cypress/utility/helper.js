@@ -1,6 +1,6 @@
 class Helper {
     getBaseUrl() {
-        let env = Cypress.env('env')
+        const env = Cypress.env('env')
         switch (env) {
             case 'kovan':
                 return 'https://kovan.etherscan.io/'
