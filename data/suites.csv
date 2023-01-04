@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Oct 05 08:23:33 UTC 2022","Wed Oct 05 08:23:35 UTC 2022","1389","","Test Suite","","","","API Test",""
-"passed","Wed Oct 05 08:23:28 UTC 2022","Wed Oct 05 08:23:33 UTC 2022","5378","","Test Suite","","","","UI Test",""
+"passed","Wed Jan 04 08:14:29 UTC 2023","Wed Jan 04 08:14:29 UTC 2023","588","","Test Suite","","","","API Test",""
+"passed","Wed Jan 04 08:14:22 UTC 2023","Wed Jan 04 08:14:29 UTC 2023","6535","","Test Suite","","","","UI Test",""
